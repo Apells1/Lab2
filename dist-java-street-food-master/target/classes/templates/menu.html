@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BASFC Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<table class="menu">
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>Price (USD)</th>
+    </tr>
+    <tr th:each="item : ${stuff}">
+        <td>
+            <img th:src="@{${item.imageFile}}" th:alt="${item.name}">
+        </td>
+        <td>
+            <h3 th:text="${item.name}">NAME</h3>
+            <span th:text="${item.description}">DESCRIPTION</span>
+        </td>
+        <td>
+            <h3 th:text="${item.price}">PRICE</h3>
+        </td>
+    </tr>
+</table>
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

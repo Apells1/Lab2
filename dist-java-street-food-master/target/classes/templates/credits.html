@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo and Text Credits</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<div id="credits">
+    Photos and descriptions borrowed from the following sources:
+    <br/>
+    <br/>
+    <a href="https://tarasmulticulturaltable.com/choripan-argentinian-chorizo-chimichurri-and-salsa-sandwiches/">Choripán</a>
+    <br/>
+    <a href="https://hispanickitchen.com/recipes/argentinean-fried-beef-empanadas/">Empanadas</a>
+    <br/>
+    <a href="https://www.thespruceeats.com/fugazzeta-stuffed-argentinian-style-pizza-3029457">Fugazzeta</a>
+    <br/>
+    <a href="https://spanishsabores.com/2018/01/13/spanish-tortilla-with-ham-and-peas-recipe-tortilla-de-guisantes-con-jamon/">Tortilla</a>
+    <br/>
+    <a href="https://www.shop-buenosaires.com/blog/2017/4/13/buenos-aires-best-markets">Feria de San Telmo</a>
+</div>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

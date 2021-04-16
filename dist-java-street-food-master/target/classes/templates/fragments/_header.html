@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <div id="logo">
+        <a th:href="@{/}">Buenos Aires Street Food Café</a>
+    </div>
+    <nav>
+        <ul>
+            <li><a th:href="@{/menu}">Menu</a></li>
+            <li><a th:href="@{/credits}">Credits</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

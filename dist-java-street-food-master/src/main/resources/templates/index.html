@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Types o' ice cream</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div id="content">
+    <br/>
+    <p>
+       Ice cream is a fun treat! Here is a list of 5 different types of ice cream
+    </p>
+</div>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Mint Chocolate Chip",
+    "description": "A refreshing mint based ice cream with some dark chocolate chunks mixed in.",
+    "imageFile": "img/MintChoco.jpg"
+  },
+  {
+    "name": "Neapolitan",
+    "description": "For those who cant decide on one flavor, this ice cream comes with three! vanilla, chocolate and strawberry.",
+    "imageFile": "img/Neapolitan.jpg"
+
+  },
+  {
+
+    "name": "Chocolate",
+    "description": "Chocolate flavored ice cream, nothing more and nothing less.",
+    "imageFile": "img/Chocolate.png"
+  },
+  {
+
+    "name": "Vanilla",
+    "description": "The most basic ice cream, but somehow still one of the best.",
+    "imageFile": "img/Vanilla.jpg"
+
+  },
+  {
+
+    "name": "Blueberry Waffle Cone",
+    "description": "This is definitively the best ice cream, vanilla with blueberry with pieces of waffle cone mixed in, seriously try it.",
+    "imageFile": "img/BlueberryWaffle.jpg"
+
+  }
+]

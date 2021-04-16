@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(95, 170, 254);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#logo {
+    background-color: white;
+    background-image: url("img/argentina-flag-sun.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo > a {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#credits {
+    font-size: x-large;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu td {
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+footer {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #111;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+}

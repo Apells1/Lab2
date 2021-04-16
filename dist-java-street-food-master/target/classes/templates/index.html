@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Buenos Aires Street Food Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div id="content">
+    <img th:src="@{/img/feria-de-san-telmo.PNG}" alt="Feria de San Telmo">
+    <br/>
+    <p>
+        The San Telmo market is one of the biggest street markets and is a must-do for any visitors in Buenos Aires on a
+        Sunday. The lively market stretches for nearly 2km through the charming cobbled streets of Buenos Aires' oldest
+        neighbourhood. Browsing through the assortment of trinkets, vintage clothing and curios from another era, you
+        get a sense of Argentina's storied past.
+    </p>
+    <p>
+        You can also find local artisan leather goods, jewelry and other crafts as well
+        as artworks from local artists, making it the perfect place to shop for souvenirs. The streets also come alive
+        later in the day with tango dancers, drummers and street performers. Take your time to wander the length of
+        Defensa then finish with a cerveza or glass of vino tinto in Plaza Dorrego at sundown.</p>
+</div>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
